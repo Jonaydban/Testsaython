@@ -126,7 +126,7 @@ ownerhson_id = 1631148798
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('/.تجميع المليار' )
+        order = await event.reply('/.تجميع المليار')
         
 ownerhson_id = 1631148798
 @sython.on(events.NewMessage(outgoing=False, pattern='/Point2'))
